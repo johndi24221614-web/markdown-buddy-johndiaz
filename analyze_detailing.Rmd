@@ -1,0 +1,100 @@
+---
+title: "Documentation: analyze_detailing.R"
+author: "John Diaz"
+date: "2026-10-19"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+> **AI Assistance Declaration**: I used Claude (Anthropic, model Claude Sonnet 5.5) on October 19, 2026 for layout suggestions, drafting the Markdown and R Markdown structure, writing assistance, and for generating the synthetic dataset (with a Python script) and the first draft of the R script. Prompts used: see the AI Assistance Disclosure section of `README.md` and `Appendix.md`. I verified outputs by running the script and knitting this file in Posit Cloud, recalculating the averages in an Excel workbook and comparing them with the R output, and previewing the files on GitHub. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
+
+# Purpose
+
+`scripts/analyze_detailing.R` summarises a **synthetic** dataset of luxury-car detailing services. For each service type it reports the number of jobs, the average price (CAD), the average duration (hours) and the average customer rating, and it plots the average price per service.
+
+# Setup
+
+The script uses the `tidyverse` collection (`readr`, `dplyr` and `ggplot2` are the parts it needs).
+
+```{r packages}
+library(tidyverse)
+```
+
+# Inputs
+
+The script reads one file, `data/detailing_services.csv`, with 120 rows and these columns:
+
+| Column | Description |
+|---|---|
+| `service_id` | Unique job identifier (S001 to S120) |
+| `service_date` | Date of the service (2026) |
+| `vehicle_class` | Sedan, SUV, Coupe or Convertible |
+| `service_type` | Type of detailing service |
+| `duration_hours` | Time spent on the job, in hours |
+| `price_cad` | Price charged, in Canadian dollars |
+| `customer_rating` | Customer rating (out of 5.0) |
+
+## Load the data
+
+```{r load-data}
+detailing <- read_csv("data/detailing_services.csv", show_col_types = FALSE)
+glimpse(detailing)
+```
+
+# Processing
+
+The data is grouped by `service_type` and summarised with `mean()`. The result is sorted from the most to the least expensive service.
+
+```{r summary}
+summary_by_service <- detailing |>
+  group_by(service_type) |>
+  summarise(
+    n_services         = n(),
+    avg_price_cad      = round(mean(price_cad), 2),
+    avg_duration_hours = round(mean(duration_hours), 2),
+    avg_rating         = round(mean(customer_rating), 2),
+    .groups = "drop"
+  ) |>
+  arrange(desc(avg_price_cad))
+
+knitr::kable(summary_by_service,
+             caption = "Summary by service type (synthetic data)")
+```
+
+# Outputs
+
+## Summary table
+
+The table above is also printed to the console when the script runs.
+
+## Figure
+
+The script saves the chart below to `figures/avg_price_by_service.png`.
+
+```{r price-plot, fig.width=8, fig.height=5}
+ggplot(summary_by_service,
+       aes(x = reorder(service_type, avg_price_cad), y = avg_price_cad)) +
+  geom_col(fill = "steelblue") +
+  coord_flip() +
+  labs(
+    title = "Average Price by Detailing Service",
+    subtitle = "Synthetic data, luxury vehicles",
+    x = NULL,
+    y = "Average price (CAD)"
+  ) +
+  theme_minimal()
+```
+
+# How to run the script
+
+From the project root:
+
+```r
+source("scripts/analyze_detailing.R")
+```

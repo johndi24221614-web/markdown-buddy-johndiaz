@@ -1,0 +1,121 @@
+service_id,service_date,vehicle_class,service_type,duration_hours,price_cad,customer_rating
+S001,2026-01-05,Sedan,Full Detail,6.1,475.76,4.6
+S002,2026-01-08,SUV,Full Detail,6.8,564.97,4.2
+S003,2026-01-12,Coupe,Interior Deep Clean,3.2,215.65,4.6
+S004,2026-01-15,Coupe,Express Exterior Wash,1.1,88.37,4.8
+S005,2026-01-18,Sedan,Full Detail,5.7,421.59,3.9
+S006,2026-01-18,Convertible,Full Detail,7.1,543.01,4.7
+S007,2026-01-24,Coupe,Paint Correction,9.6,873.00,4.5
+S008,2026-01-25,Coupe,Full Detail,5.6,484.24,4.7
+S009,2026-01-25,Sedan,Headlight Restoration,1.6,145.18,4.6
+S010,2026-01-27,Sedan,Headlight Restoration,1.4,131.14,4.8
+S011,2026-01-29,SUV,Ceramic Coating,18.0,1554.35,4.3
+S012,2026-01-31,Convertible,Express Exterior Wash,1.2,97.35,3.8
+S013,2026-02-02,Convertible,Express Exterior Wash,1.0,102.04,4.2
+S014,2026-02-03,Sedan,Express Exterior Wash,1.0,93.02,3.9
+S015,2026-02-03,SUV,Express Exterior Wash,1.2,110.72,4.3
+S016,2026-02-04,SUV,Paint Correction,11.1,1014.18,4.1
+S017,2026-02-06,Sedan,Ceramic Coating,14.7,1280.88,4.5
+S018,2026-02-07,Sedan,Express Exterior Wash,1.0,92.60,4.9
+S019,2026-02-08,SUV,Express Exterior Wash,1.0,104.64,4.5
+S020,2026-02-09,Coupe,Ceramic Coating,14.6,1360.98,4.2
+S021,2026-02-10,SUV,Express Exterior Wash,1.1,100.54,4.6
+S022,2026-02-11,Sedan,Express Exterior Wash,1.0,88.08,5.0
+S023,2026-02-15,SUV,Headlight Restoration,1.6,172.07,4.2
+S024,2026-02-18,Sedan,Full Detail,5.7,436.28,4.4
+S025,2026-02-21,SUV,Full Detail,7.4,544.51,4.8
+S026,2026-02-28,Sedan,Headlight Restoration,1.4,150.93,4.0
+S027,2026-02-28,Sedan,Interior Deep Clean,2.7,228.38,4.2
+S028,2026-03-01,Sedan,Ceramic Coating,14.6,1400.79,5.0
+S029,2026-03-01,Sedan,Headlight Restoration,1.4,153.25,4.8
+S030,2026-03-03,SUV,Full Detail,7.2,522.74,4.2
+S031,2026-03-04,SUV,Interior Deep Clean,3.3,265.12,3.6
+S032,2026-03-04,Convertible,Paint Correction,9.9,857.43,4.6
+S033,2026-03-07,Sedan,Headlight Restoration,1.5,133.48,4.4
+S034,2026-03-07,SUV,Express Exterior Wash,1.1,105.36,4.6
+S035,2026-03-08,Sedan,Paint Correction,10.5,830.50,4.0
+S036,2026-03-09,Sedan,Express Exterior Wash,1.1,82.91,4.2
+S037,2026-03-10,Sedan,Express Exterior Wash,0.9,86.88,4.4
+S038,2026-03-10,Convertible,Full Detail,6.4,553.66,4.3
+S039,2026-03-10,Convertible,Express Exterior Wash,1.2,99.67,4.8
+S040,2026-03-13,SUV,Express Exterior Wash,1.1,104.18,4.0
+S041,2026-03-18,SUV,Interior Deep Clean,3.8,273.66,4.1
+S042,2026-03-22,SUV,Full Detail,6.3,497.74,4.5
+S043,2026-03-23,Sedan,Express Exterior Wash,0.9,91.86,4.9
+S044,2026-03-26,Coupe,Headlight Restoration,1.5,158.51,4.4
+S045,2026-03-30,SUV,Express Exterior Wash,1.1,94.37,4.3
+S046,2026-03-31,Sedan,Full Detail,6.4,470.66,4.7
+S047,2026-04-01,SUV,Interior Deep Clean,3.5,253.04,4.9
+S048,2026-04-04,Sedan,Full Detail,5.9,467.86,4.2
+S049,2026-04-05,SUV,Headlight Restoration,1.6,182.56,4.9
+S050,2026-04-06,Sedan,Express Exterior Wash,1.1,78.25,4.3
+S051,2026-04-08,SUV,Express Exterior Wash,1.1,105.05,5.0
+S052,2026-04-09,Sedan,Interior Deep Clean,2.9,230.96,4.5
+S053,2026-04-15,Coupe,Express Exterior Wash,0.9,85.16,4.1
+S054,2026-04-16,SUV,Headlight Restoration,1.7,182.02,4.8
+S055,2026-04-16,Sedan,Express Exterior Wash,1.1,82.25,3.9
+S056,2026-04-23,Sedan,Express Exterior Wash,1.0,83.03,5.0
+S057,2026-04-23,SUV,Full Detail,6.5,588.91,4.3
+S058,2026-04-25,Sedan,Paint Correction,9.6,776.94,4.6
+S059,2026-04-30,Sedan,Express Exterior Wash,1.0,86.74,4.9
+S060,2026-05-01,SUV,Ceramic Coating,16.5,1741.67,4.5
+S061,2026-05-02,SUV,Interior Deep Clean,3.7,285.15,4.4
+S062,2026-05-05,Sedan,Full Detail,6.2,467.77,5.0
+S063,2026-05-07,SUV,Interior Deep Clean,3.8,267.72,4.7
+S064,2026-05-08,SUV,Full Detail,6.6,515.37,4.1
+S065,2026-05-10,Sedan,Full Detail,5.4,430.13,5.0
+S066,2026-05-11,SUV,Ceramic Coating,15.4,1628.82,4.5
+S067,2026-05-18,SUV,Full Detail,6.9,504.96,4.7
+S068,2026-05-20,Sedan,Paint Correction,9.5,757.16,4.2
+S069,2026-05-22,Sedan,Headlight Restoration,1.5,149.17,4.1
+S070,2026-05-22,Coupe,Headlight Restoration,1.7,150.46,4.4
+S071,2026-05-23,SUV,Interior Deep Clean,3.6,258.60,4.9
+S072,2026-05-26,SUV,Interior Deep Clean,3.3,255.16,4.6
+S073,2026-05-27,Sedan,Express Exterior Wash,1.0,85.06,4.7
+S074,2026-05-31,Sedan,Ceramic Coating,14.1,1430.97,4.5
+S075,2026-06-04,SUV,Paint Correction,11.3,1025.07,4.1
+S076,2026-06-05,Sedan,Full Detail,6.1,486.90,4.3
+S077,2026-06-07,SUV,Interior Deep Clean,3.9,257.26,4.7
+S078,2026-06-09,Sedan,Interior Deep Clean,2.7,227.33,4.8
+S079,2026-06-10,Sedan,Ceramic Coating,14.0,1440.43,4.3
+S080,2026-06-11,SUV,Full Detail,6.8,507.67,4.0
+S081,2026-06-14,Sedan,Interior Deep Clean,2.9,228.70,4.7
+S082,2026-06-16,Coupe,Interior Deep Clean,3.4,240.28,4.6
+S083,2026-06-18,Sedan,Full Detail,5.4,458.38,4.4
+S084,2026-06-23,Sedan,Headlight Restoration,1.5,144.97,4.7
+S085,2026-06-27,SUV,Interior Deep Clean,3.3,248.63,4.1
+S086,2026-06-28,Coupe,Full Detail,5.4,443.43,4.4
+S087,2026-06-30,SUV,Express Exterior Wash,1.2,98.31,4.2
+S088,2026-07-09,SUV,Express Exterior Wash,1.1,94.07,4.1
+S089,2026-07-13,SUV,Paint Correction,11.7,868.04,3.7
+S090,2026-07-15,Convertible,Headlight Restoration,1.7,170.01,4.4
+S091,2026-07-18,Convertible,Paint Correction,12.0,963.34,4.4
+S092,2026-07-18,Sedan,Full Detail,5.6,473.06,4.8
+S093,2026-07-18,Sedan,Interior Deep Clean,3.2,215.34,4.3
+S094,2026-07-20,SUV,Headlight Restoration,1.7,177.80,4.9
+S095,2026-07-25,Convertible,Ceramic Coating,15.7,1702.36,4.1
+S096,2026-08-01,Sedan,Express Exterior Wash,1.0,92.51,3.8
+S097,2026-08-01,Sedan,Ceramic Coating,12.9,1302.64,4.7
+S098,2026-08-03,Sedan,Ceramic Coating,13.6,1420.99,5.0
+S099,2026-08-05,SUV,Express Exterior Wash,1.1,106.81,4.1
+S100,2026-08-07,Coupe,Ceramic Coating,12.6,1401.15,4.1
+S101,2026-08-09,SUV,Express Exterior Wash,1.1,103.93,3.8
+S102,2026-08-09,Sedan,Interior Deep Clean,2.7,238.36,5.0
+S103,2026-08-12,Sedan,Express Exterior Wash,1.0,89.60,4.5
+S104,2026-08-19,Sedan,Ceramic Coating,13.0,1323.05,4.7
+S105,2026-08-21,Coupe,Headlight Restoration,1.6,151.45,3.7
+S106,2026-08-23,Sedan,Interior Deep Clean,2.9,239.41,4.5
+S107,2026-08-25,Coupe,Interior Deep Clean,2.8,250.04,4.9
+S108,2026-08-25,Sedan,Express Exterior Wash,1.1,89.02,4.8
+S109,2026-08-27,SUV,Headlight Restoration,1.6,176.27,3.7
+S110,2026-09-01,Sedan,Express Exterior Wash,1.0,84.80,4.6
+S111,2026-09-02,Sedan,Express Exterior Wash,1.0,81.87,4.7
+S112,2026-09-10,Coupe,Headlight Restoration,1.4,137.11,4.4
+S113,2026-09-10,Convertible,Headlight Restoration,1.5,172.72,4.4
+S114,2026-09-11,SUV,Express Exterior Wash,1.2,107.25,4.5
+S115,2026-09-11,SUV,Full Detail,7.6,574.55,5.0
+S116,2026-09-14,Sedan,Interior Deep Clean,2.9,218.34,4.4
+S117,2026-09-21,Sedan,Interior Deep Clean,3.3,227.16,3.5
+S118,2026-09-23,Sedan,Full Detail,6.0,477.70,4.4
+S119,2026-09-29,Coupe,Full Detail,6.0,494.86,4.5
+S120,2026-09-30,SUV,Express Exterior Wash,1.2,98.92,3.5
